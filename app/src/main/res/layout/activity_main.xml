@@ -6,7 +6,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="#E3F2FD"
+    android:background="@color/topView_bckgd"
     tools:context=".MainActivity">
 
     <TextView
@@ -32,7 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="56dp"
             android:onClick="SpotifyStreamerLaunch"
-            android:background="#F08C35"
+            android:background="@color/udacity_orange"
             android:text="Spotify Streamer"
             android:textStyle="bold"
             android:layout_marginBottom="4dp"/>
@@ -41,7 +41,7 @@
             android:layout_width="match_parent"
             android:layout_height="56dp"
             android:onClick="ScoresAppLaunch"
-            android:background="#F08C35"
+            android:background="@color/udacity_orange"
             android:text="Scores App"
             android:textStyle="bold"
             android:layout_marginBottom="4dp"
@@ -51,7 +51,7 @@
             android:layout_width="match_parent"
             android:layout_height="56dp"
             android:onClick="LibraryAppLaunch"
-            android:background="#F08C35"
+            android:background="@color/udacity_orange"
             android:text="Library App"
             android:textStyle="bold"
             android:layout_marginBottom="4dp"
@@ -61,7 +61,7 @@
             android:layout_width="match_parent"
             android:layout_height="56dp"
             android:onClick="BuildItBiggerLaunch"
-            android:background="#F08C35"
+            android:background="@color/udacity_orange"
             android:text="Build It Bigger"
             android:textStyle="bold"
             android:layout_marginBottom="4dp"
@@ -71,7 +71,7 @@
             android:layout_width="match_parent"
             android:layout_height="56dp"
             android:onClick="XyzReaderLaunch"
-            android:background="#F08C35"
+            android:background="@color/udacity_orange"
             android:text="Xyz Reader"
             android:textStyle="bold"
             android:layout_marginBottom="4dp"
@@ -81,7 +81,7 @@
             android:layout_width="match_parent"
             android:layout_height="56dp"
             android:onClick="CapstoneLaunch"
-            android:background="#F44336"
+            android:background="@color/mainButton"
             android:text="Capstone:  My Own App"
             android:textStyle="bold"
             android:layout_marginTop="4dp"/>
